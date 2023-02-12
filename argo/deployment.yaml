@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: gitops-foundations
-        image: wevenstall/gitops-foundations:2.0
+        image: wevenstall/gitops-foundations:1.0
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8080
